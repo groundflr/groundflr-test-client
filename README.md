@@ -2,7 +2,7 @@
 
 ## The Test
 
-Design a UI that renders a [list](https://vuetifyjs.com/en/components/data-tables/) of users with columns corresponding to the following data i.e. `firstName`, `lastName`, `age` and `actions`. The `actions` column will display either a [`checkbox`](https://vuetifyjs.com/en/components/checkboxes/) or [`button`](https://vuetifyjs.com/en/components/buttons/) that toggles between two kinds of visual and behavioural states i.e. assigned and unassign. On clicking either actionable a `user` should be toggle -assigned, or -unassigned, to the corresponding `LearningExperience`, which to all intents and purposes is the domain name for a learning resource type such as an article, video, meeting, project, etc. The schema of both the `User` and `LearningExperience` are avialable on the [`server`]() under the `./app/Repository/Schema` folder.
+Design a UI that renders a [list](https://vuetifyjs.com/en/components/data-tables/) of users with columns corresponding to the following data i.e. `firstName`, `lastName`, `age` and `actions`. The `actions` column will display either a [`checkbox`](https://vuetifyjs.com/en/components/checkboxes/) or [`button`](https://vuetifyjs.com/en/components/buttons/) that toggles between two kinds of visual and behavioural states i.e. assigned and unassign. On clicking either actionable a `user` should be toggle -assigned, or -unassigned, to the corresponding `LearningExperience`, which to all intents and purposes is the domain name for a learning resource type such as an article, video, meeting, project, etc. The schema of both the `User` and `LearningExperience` are avialable on the [`server`](git@github.com:groundflr/groundflr-test-server.git) under the `./app/Repository/Schema` folder.
 
 ## Project Structure
 
@@ -24,7 +24,7 @@ Follow these instructions to get the projects up and running:
 
 1. Install Node.js. Make sure you have [Node](https://nodejs.org/en/download/) >= v14.19.3 installed on your machine.
 2. Install [MongoDb](https://www.mongodb.com/docs/manual/installation/) or database of your choice if you're using the `server` app.
-3. Download the [client]() and [server]() repositories.
+3. Download the [client](git@github.com:groundflr/groundflr-test-client.git) and [server](git@github.com:groundflr/groundflr-test-server.git) repositories.
 4. Install dependencies.
 
     This will install the Node dependencies for both projects.
